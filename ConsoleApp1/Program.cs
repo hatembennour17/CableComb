@@ -112,7 +112,7 @@ namespace ConsoleApp1
                 sumSizes = sumSizes + item;
                
             }
-            if (sumSizes < 18)
+            if (sumSizes =< 18)
             {
                 Console.WriteLine(
                     "{0,3}: {1} Sum= {2}",
